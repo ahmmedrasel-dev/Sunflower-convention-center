@@ -7,14 +7,92 @@
 
 body {
 	font-family: "Inter", sans-serif;
-	font-family: "Poppins", sans-serif;
 }
 
-/*----------- Common Css ---------- */
-/*----------- Common Css ---------- */
-/*----------- Common Css ---------- */
-/*----------- Common Css ---------- */
-/*----------- Common Css ---------- */
-/*----------- Common Css ---------- */
-/*----------- Common Css ---------- */
-/*----------- Common Css ---------- */
+/* Header Part Css */
+.logo {
+	color: #3f87f5 !important;
+}
+
+.logo span {
+	color: orangered;
+}
+.booking-btn {
+	background-color: #fff;
+	padding: 10px 40px;
+	color: #3f87f5;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+
+/*----------- Package Section Css ---------- */
+.section-title {
+	font-family: "Poppins", sans-serif;
+	font-size: 38px;
+	font-weight: 600;
+}
+.package-price {
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #231d4f;
+}
+
+.title {
+	font-size: 28px;
+	color: #231d4f;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.hot-package {
+	background-color: #3f87f5;
+	border-radius: 30px;
+	box-shadow: 0px 5px 26px #0f3164;
+}
+
+.hot-package .title {
+	color: #fff;
+}
+
+.hot-package .package-price {
+	color: #fff;
+}
+
+.package-btn-color {
+	background-color: rgba(244, 150, 210, 0.106);
+	color: #3f87f5;
+	padding: 10px 40px;
+}
+
+.hot-package .package-btn {
+	background-color: #fff;
+	color: #3f87f5;
+	padding: 10px 40px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+/*----------- Responsive Css ---------- */
+
+@media (max-width: 576px) {
+	.booking-btn {
+		padding: 5px 15px;
+		font-weight: 500;
+	}
+
+	.banner-title {
+		font-size: 22px;
+	}
+
+	.banner-text {
+		font-size: 14px;
+		padding: 0;
+	}
+
+	.section-title {
+		font-size: 28px;
+		font-weight: 600;
+	}
+}
